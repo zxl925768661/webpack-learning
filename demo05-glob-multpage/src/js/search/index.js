@@ -1,0 +1,1 @@
+document.getElementById("app").textContent = "我是search页面";

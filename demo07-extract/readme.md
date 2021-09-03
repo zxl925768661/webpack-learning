@@ -1,0 +1,2 @@
+利用mini-css-extract-plugin把css样式从js文件中提取到单独的css文件中
+

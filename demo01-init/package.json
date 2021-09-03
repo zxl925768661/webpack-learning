@@ -1,0 +1,19 @@
+{
+  "name": "demo01-init",
+  "version": "1.0.0",
+  "description": "webpack5 learning",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack ./src/index.js"
+  },
+  "keywords": ["webpack5"],
+  "author": {
+    "name": "xiaolin.zhou",
+    "email": "925768661@qq.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
