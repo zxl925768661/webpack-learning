@@ -2,11 +2,8 @@
   "name": "demo09-file",
   "version": "1.0.0",
   "description": "webpack5 learning",
-  "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^10.3.3",
-    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.2.0",
     "file-loader": "^6.2.0",
     "glob": "^7.1.7",

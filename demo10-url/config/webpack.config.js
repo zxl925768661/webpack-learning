@@ -1,7 +1,7 @@
 const path = require("path");
 const { getMultiPageConfig } = require("../getMultiPageConfig");
-const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const webpack = require('webpack');
 const { entries, htmlPlugins } = getMultiPageConfig();
 module.exports = {
   mode: "development", // 开发模式
@@ -17,11 +17,12 @@ module.exports = {
   // 入口文件
   entry: entries,
   output: {
+    clean: true,  // 清理 /dist 文件夹
     filename: "[name].js", // 打包后的文件名称
-    path: path.resolve(__dirname, "dist"), // 打包后的目录
+    path: path.resolve(__dirname, "../dist"), // 打包后的目录
   },
   plugins: [
-    new CleanWebpackPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
     ...htmlPlugins,
     new MiniCssExtractPlugin({
       filename: "[name].[hash].css",

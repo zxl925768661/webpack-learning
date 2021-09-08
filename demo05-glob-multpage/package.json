@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "webpack5 learning",
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
     "glob": "^7.1.7",
     "html-webpack-plugin": "^5.3.2",
     "webpack": "^5.51.1",
@@ -14,7 +13,9 @@
     "dev": "webpack-dev-server --config ./config/webpack.config.js",
     "build": "webpack --config ./config/webpack.config.js"
   },
-  "keywords": ["webpack5"],
+  "keywords": [
+    "webpack5"
+  ],
   "author": {
     "name": "xiaolin.zhou",
     "email": "925768661@qq.com"

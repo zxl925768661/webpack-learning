@@ -1,0 +1,14 @@
+<template>
+  <div id="app">{{message}}</div>
+</template>
+
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator'
+
+@Component({
+  name: 'App'
+})
+export default class extends Vue {
+  message = "hello world!"
+}
+</script>

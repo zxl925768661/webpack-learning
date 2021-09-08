@@ -1,0 +1,1 @@
+配置vue + typescript开发环境  引入vue-loader、vue-template-compiler、vue-class-component、vue-property-decorator、ts-loader、typescript等  

@@ -2,10 +2,7 @@
   "name": "demo06-css",
   "version": "1.0.0",
   "description": "webpack5 learning",
-  "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "clean-webpack-plugin": "^4.0.0",
     "css-loader": "^6.2.0",
     "glob": "^7.1.7",
     "html-webpack-plugin": "^5.3.2",

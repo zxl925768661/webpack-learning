@@ -1,0 +1,1 @@
+webpack5 内置了 asset 模块, 用来代替 file-loader & url-loader & raw-loader 处理静态资源
